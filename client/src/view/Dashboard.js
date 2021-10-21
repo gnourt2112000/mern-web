@@ -33,7 +33,7 @@ const Dashboard = () => {
                 <Card className='text-center mx-5 my-5'>
                     <Card.Header as='h1'>Hi {username}</Card.Header>
                     <Card.Body>
-                        <Card.Title>Welcome to Create</Card.Title>
+                        <Card.Title>Welcome to MyApp</Card.Title>
                         <Card.Text>
                             Click the button below to track your first thing to watch
                         </Card.Text>
