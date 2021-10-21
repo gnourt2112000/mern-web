@@ -16,7 +16,7 @@ const NavbarMenu = () => {
         <Navbar expand='lg' bg='primary' variant='dark' className='shadow'>
             <Container>
                 <Navbar.Brand className='fw-bolder text-white ms-0'>
-                    <img src={logo} alt='learnItLogo' width='32' height='32' className='me-2'></img>
+                    <img src={logo} alt='Logo' width='32' height='32' className='me-2'></img>
                     MyApp
                 </Navbar.Brand>
 
