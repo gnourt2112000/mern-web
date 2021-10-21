@@ -1,7 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-import learnItLogo from '../../assets/logo.svg'
+import logo from '../../assets/logo.svg'
 import logoutIcon from '../../assets/logout.svg'
 import Button from 'react-bootstrap/Button'
 import {Link} from 'react-router-dom'
@@ -16,8 +16,8 @@ const NavbarMenu = () => {
         <Navbar expand='lg' bg='primary' variant='dark' className='shadow'>
             <Container>
                 <Navbar.Brand className='fw-bolder text-white ms-0'>
-                    <img src={learnItLogo} alt='learnItLogo' width='32' height='32' className='me-2'></img>
-                    Create
+                    <img src={logo} alt='learnItLogo' width='32' height='32' className='me-2'></img>
+                    MyApp
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>            
