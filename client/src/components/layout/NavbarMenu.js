@@ -17,7 +17,7 @@ const NavbarMenu = () => {
             <Container>
                 <Navbar.Brand className='fw-bolder text-white ms-0'>
                     <img src={logo} alt='Logo' width='32' height='32' className='me-2'></img>
-                    MyApp
+                    Memo
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>            
